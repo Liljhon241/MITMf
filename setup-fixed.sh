@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+#No need for pip anymore!
 #In case your system is old: apt-get update && apt-get dist-upgrade
 git submodule init && git submodule update --recursive
 apt-get install -y python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev
