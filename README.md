@@ -4,23 +4,42 @@
 [![Code Climate](https://codeclimate.com/github/byt3bl33d3r/MITMf/badges/gpa.svg)](https://codeclimate.com/github/byt3bl33d3r/MITMf)
 [![Build Status](https://travis-ci.org/byt3bl33d3r/MITMf.svg)](https://travis-ci.org/byt3bl33d3r/MITMf)
 
-#MITMf
+#MITMf - Fixed Setup Fork
 
+
+The Fork
+========
+
+I decided to fork this repository to provide MITMf users with an easier and faster setup process, optimizing the deployment script by including some pissing python packages downloading them with apt-get utility or pip and by including the mitmflib in the git repository for better compatibility, in an attempt to fix some problems related to the download of the package.
+
+Original MITMf:
+
+- Twitter: @byt3bl33d3r
+- IRC on Freenode: #MITMf
+- Email: byt3bl33d3r@gmail.com
+
+Fork:
+
+- Twitter: @ciuffysrise
+- Email: ciuffysrise@gmail.com
+
+Installation
+============
+
+- Clone this repository
+- Give execution permissions to the ```setup-fixed.sh``` script and run it.
+- If apt-get cannot locate some packages, install them manually with pip or update and upgrade apt-get.
+
+Description
+===========
 Framework for Man-In-The-Middle attacks
 
 Quick tutorials, examples and developer updates at: https://byt3bl33d3r.github.io
 
 This tool is based on [sergio-proxy](https://github.com/supernothing/sergio-proxy) and is an attempt to revive and update the project.
 
-Contact me at:
-- Twitter: @byt3bl33d3r
-- IRC on Freenode: #MITMf
-- Email: byt3bl33d3r@gmail.com
-
 **Before submitting issues, please read the [CONTRIBUTING.md](CONTRIBUTING.md).**
 
-Description
-============
 MITMf aims to provide a one-stop-shop for Man-In-The-Middle and network attacks while updating and improving
 existing attacks and techniques.
 
@@ -132,17 +151,3 @@ For a complete list of available options, just run ```python mitmf.py --help```
 - **SMBAuth**          : Evoke SMB challenge-response authentication attempts
 - **Upsidedownternet** : Flips images 180 degrees
 
-How to install on Kali
-======================
-
-```apt-get install mitmf```
-
-**Currently Kali has a very old version of MITMf in its repos, read the [Installation](#installation) section to get the latest version**
-
-Installation
-============
-
-- Clone this repository
-- Run the ```setup.sh``` script
-- On Kali, Debian (and possibly Ubuntu): ```apt-get install python-dev python-setuptools libpcap0.8-dev libnetfilter-queue-dev```
-- Run the command ```pip install --upgrade -r requirements.txt``` to install all Python dependencies
