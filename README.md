@@ -10,7 +10,7 @@
 The Fork
 ========
 
-I decided to fork this repository to provide MITMf users with an easier and faster setup process, optimizing the deployment script by including some pissing python packages downloading them with apt-get utility or pip and by including the mitmflib in the git repository for better compatibility, in an attempt to fix some problems related to the download of the package.
+I decided to fork this repository to provide MITMf users an easier and faster setup process, optimizing the deployment script by including some missing python packages downloading them with apt-get utility or pip and by including the mitmflib in the git repository for better compatibility, in an attempt to fix some problems related to the download of the libraries.
 
 Original MITMf:
 
